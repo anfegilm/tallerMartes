@@ -23,7 +23,7 @@ let corsOptions = ["http://localhost", "http://localhost:8082"];
 app.use(express.json());
 app.use(express.urlencoded({ extends: true }));
 
-require("./routes/estudiantes.routes")(app);
+//require("./routes/estudiantes.routes")(app);
 require("./routes/caballos.routes")(app);
 const PORT = 8081;
 
